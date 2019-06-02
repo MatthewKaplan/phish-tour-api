@@ -4,6 +4,7 @@ exports.up = function(knex, Promise) {
     table.varchar("venue_name");
     table.varchar("date");
     table.varchar("location");
+    table.varchar("tickets");
   });
 };
 
